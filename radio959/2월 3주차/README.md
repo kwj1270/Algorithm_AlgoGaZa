@@ -10,9 +10,7 @@
 
 |문제|링크|
 |:-----:|-|
-|외판원 순회2| https://www.acmicpc.net/problem/10971|
-|로봇 청소기|https://www.acmicpc.net/problem/14503|
-|⚾|https://www.acmicpc.net/problem/17281|
-
-로봇 청소기 해설 : https://ukyonge.tistory.com/83  
-⚾ 해설 : https://buddev.tistory.com/26
+|나이트의 이동| https://www.acmicpc.net/problem/7562|
+|토마토|https://www.acmicpc.net/problem/7569|
+|빗물|https://www.acmicpc.net/problem/14719|
+|내리막 길|https://www.acmicpc.net/problem/1520|
