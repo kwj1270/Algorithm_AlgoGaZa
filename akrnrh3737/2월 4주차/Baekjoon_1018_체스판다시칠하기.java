@@ -20,7 +20,7 @@ public class Baekjoon_1018_체스판다시칠하기 {
 /**
  * N*M 보드에서 8*8크기를 선택했을때 최소로 다시 색칠하는 최소값 구하기
  * 8*8을 어디서부터 시작해야될까? 브루트포스
- * 인접해있는 얘들이 달라야하는건 BFS로 체크 , visited도 체크.
+ * (행,열) 합으로 올바른색깔 판단 가능
  * @throws IOException 
  * 
  * */
@@ -50,15 +50,10 @@ public class Baekjoon_1018_체스판다시칠하기 {
 		}
 		ans = Integer.MAX_VALUE;
 		
-		if(R==8 && C==8) {
-			solve(0,0);
-			System.out.println(ans);
-			return;
-		}
-		
 		for (int i = 0; i < R; i++) {
 			for (int j = 0; j < C; j++) {
-				solve(i,j);
+				//solve(i,j);
+				ans = Math.min(ans, coloring(i, j));
 			}
 		}
 		System.out.println(ans);
@@ -112,6 +107,48 @@ public class Baekjoon_1018_체스판다시칠하기 {
 			}
 		}
 		ans = ans < cnt ? ans : cnt;
+	}
+	
+	private static int coloring(int y, int x) {
+		if(y+8 > R || x + 8 > C) return Integer.MAX_VALUE;
+		int whiteCnt = 0;
+		int blackCnt = 0;
+
+		//시작이 W일때
+		for (int i = y; i < y+8; i++) {
+			for (int j = x; j < x+8; j++) {
+				if((i+j) % 2 == 0 ) { //행 열 합이 짝
+					if(map[i][j] != 'W') {
+						whiteCnt++;
+					}
+				}
+				if((i+j) % 2 == 1){// 행 열 합이 홀
+					if(map[i][j] != 'B') {
+						whiteCnt++;
+					}
+				}
+				
+				
+			}
+		}
+		//시작이 B일때
+		for (int i = y; i < y+8; i++) {
+			for (int j = x; j < x+8; j++) {
+				if((i+j) % 2 == 0 ) { //행 열 합이 짝
+					if(map[i][j] != 'B') {
+						blackCnt++;
+					}
+				}
+				if((i+j) % 2 == 1){// 행 열 합이 홀
+					if(map[i][j] != 'W') {
+						blackCnt++;
+					}
+				}
+				
+				
+			}
+		}
+		return Math.min(blackCnt, whiteCnt);
 	}
 
 }
