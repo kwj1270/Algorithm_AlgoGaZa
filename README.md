@@ -1,10 +1,10 @@
-# Algorithm_AlgoGaZa
+# 💻 Algorithm_AlgoGaZa
 광주 4반, 알고리즘 스터디
 
-## LICENSE
+## 📝 LICENSE
 This is released under the MIT license. See [LICENSE]() for details.
   
-## 기간     
+## 📆 기간     
 2020/01/25 ~ SSAFY를 수료하는 그날 까지 ☺
 
 ## 🤝 CommitConvention   
