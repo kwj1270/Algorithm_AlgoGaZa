@@ -73,6 +73,10 @@ git commit -m "feat(kwj1270): 0000_알고리즘.java 문제풀이 추가"
 </a>
   
 Made with [contributors-img](https://contrib.rocks).    
-
-## 참고하면 도움 될 만한 사이트    
-💎[동빈나 유튜브 실전 알고리즘](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)   
+   
+## 참고하면 도움 될 만한 사이트      
+💎[동빈나 유튜브 실전 알고리즘](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)      
+💎[우지르님의 깃허브](https://github.com/kwj1270)     
+💎[제우스님의 기술 블로그](https://velog.io/@jeus95)     
+💎[두잉두잉님의 기술 블로그](https://hyewon-study-log.tistory.com/99?category=976039)     
+💎[큐원정님의 기술 블로그](https://velog.io/@q1_jeong)     
