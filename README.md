@@ -1,13 +1,13 @@
-# Algorithm_AlgoGaZa
+# 💻 Algorithm_AlgoGaZa
 광주 4반, 알고리즘 스터디
 
-## LICENSE
+## 📝 LICENSE
 This is released under the MIT license. See [LICENSE]() for details.
   
-## 기간     
-2020/01/25 ~ SSAFY를 수료하는 그날 까지 ☺
+## 📆 기간     
+2020/01/25 ~ SSAFY를 수료하는 그 날 까지 ☺
 
-## CommitConvention   
+## 🤝 CommitConvention   
 **Type**
 |말머리|내용|
 |------|----|
@@ -28,8 +28,13 @@ git commit -m "feat(kwj1270): 0000_알고리즘.java 문제풀이 추가"
 올렸던 파일의 이름이나 변수명을 수정하는 것이면 `style`    
 보다 효율성 좋은 코드를 위해 수정하는 것이면 `refactor`     
 런타임 에러, 컴파일 에러가 발생한다면 `fix`      
+  
+## ✔ Pull Request And Code Review   
+* 각자 자신의 디렉터리와 코드를 올리고 PR을 보낸다.    
+* 스터디를 진행하면서 `PR Code Review`를 통해 개선되어야 할 점을 적어준다.
+* `PR Code Review`가 끝난다면 스터디장이 확인 후 Merge를 진행한다.   
 
-   
+
 ## 💁🏻‍♀️  각자 코드에 대해서 설명할 것을 준비하자       
 스터디 시작 전 오늘은 어떤 내용에 대해서 어떤 발표를 할 것인지 생각하자.              
 스터디의 가장 큰 장점은 동기들과 같이 협업하면서 성장할 수 있다는 것!                    
@@ -73,6 +78,10 @@ git commit -m "feat(kwj1270): 0000_알고리즘.java 문제풀이 추가"
 </a>
   
 Made with [contributors-img](https://contrib.rocks).    
-
-## 참고하면 도움 될 만한 사이트    
-💎[동빈나 유튜브 실전 알고리즘](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)   
+   
+## 참고하면 도움 될 만한 사이트      
+💎[동빈나 유튜브 실전 알고리즘](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)      
+💎[우지르님의 깃허브](https://github.com/kwj1270)     
+💎[제우스님의 기술 블로그](https://velog.io/@jeus95)     
+💎[두잉두잉님의 기술 블로그](https://hyewon-study-log.tistory.com/99?category=976039)     
+💎[큐원정님의 기술 블로그](https://velog.io/@q1_jeong)     
